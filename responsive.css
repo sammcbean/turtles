@@ -1,0 +1,45 @@
+body{
+  width: 90%;
+  margin: 0 auto; /*This centers the body content*/
+
+}
+
+img {
+    display: block;
+    margin: auto;
+    width: 20%;
+}
+
+#content {
+    overflow: auto; /*makes a scroll bar for much enjoyments*/
+}
+
+#nav, #feature, #footer {
+  margin: 1%;
+}
+
+.column1, .column2, .column3 {
+  width: 31.3%; /*thirds*/
+  float: left;
+  margin:1%;
+}
+
+.column3{
+  margin-right: 0;
+}
+
+li {
+  display: inline; /*horizontal nav*/
+  padding: 0.5em;
+}
+
+#nav, #footer{
+  background-color: #d9b3ff;
+  padding: 0.5em 0;
+}
+
+#feature, .column1, .column2, .column3 {
+  height: 10em;
+  margin-bottom: 1em;
+  background-color: #d9b3ff;
+}
